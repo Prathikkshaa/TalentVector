@@ -1,0 +1,94 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --surface-primary: #ffffff;
+  --surface-secondary: #f9fafb; /* zinc-50 */
+  --surface-elevated: #ffffff;
+  --border-default: #e5e7eb; /* zinc-200 */
+  --border-emphasis: #d1d5db; /* zinc-300 */
+
+  --signal-red-text: #dc2626; /* red-600 */
+  --signal-red-bg: #fef2f2; /* red-50 */
+  --signal-red-border: #fecaca; /* red-200 */
+
+  --signal-amber-text: #d97706; /* amber-600 */
+  --signal-amber-bg: #fffbeb; /* amber-50 */
+  --signal-amber-border: #fde68a; /* amber-200 */
+
+  --signal-green-text: #059669; /* emerald-600 */
+  --signal-green-bg: #ecfdf5; /* emerald-50 */
+  --signal-green-border: #a7f3d0; /* emerald-200 */
+
+  --signal-blue-text: #2563eb; /* blue-600 */
+  --signal-blue-bg: #eff6ff; /* blue-50 */
+  --signal-blue-border: #bfdbfe; /* blue-200 */
+
+  --signal-teal-text: #0d9488; /* teal-600 */
+  --signal-teal-bg: #f0fdfa; /* teal-50 */
+  --signal-teal-border: #99f6e4; /* teal-200 */
+}
+
+.dark {
+  --surface-primary: #09090b; /* zinc-950 */
+  --surface-secondary: #18181b; /* zinc-900 */
+  --surface-elevated: #27272a; /* zinc-800 */
+  --border-default: #27272a; /* zinc-800 */
+  --border-emphasis: #3f3f46; /* zinc-700 */
+
+  --signal-red-text: #ef4444; /* red-500 */
+  --signal-red-bg: rgba(127, 29, 29, 0.2);
+  --signal-red-border: #7f1d1d;
+
+  --signal-amber-text: #f59e0b; /* amber-500 */
+  --signal-amber-bg: rgba(120, 53, 15, 0.2);
+  --signal-amber-border: #78350f;
+
+  --signal-green-text: #10b981; /* emerald-500 */
+  --signal-green-bg: rgba(6, 78, 59, 0.2);
+  --signal-green-border: #064e3b;
+
+  --signal-blue-text: #3b82f6; /* blue-500 */
+  --signal-blue-bg: rgba(30, 58, 138, 0.2);
+  --signal-blue-border: #1e3a8a;
+
+  --signal-teal-text: #14b8a6; /* teal-500 */
+  --signal-teal-bg: rgba(19, 78, 74, 0.2);
+  --signal-teal-border: #134e4a;
+}
+
+body {
+  @apply bg-surface-primary text-zinc-900 dark:text-zinc-100 font-sans;
+  font-size: 14px;
+  line-height: 1.6;
+}
+
+h1, h2, h3, .font-syne {
+  font-family: var(--font-syne), sans-serif;
+}
+
+.mono {
+  font-family: var(--font-jetbrains-mono), monospace;
+}
+
+/* Custom animations */
+@keyframes pulse-subtle {
+  0%, 100% { transform: scale(1); opacity: 1; }
+  50% { transform: scale(1.15); opacity: 0.8; }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 2s infinite ease-in-out;
+}
+
+@keyframes shimmer {
+  0% { background-position: -200% 0; }
+  100% { background-position: 200% 0; }
+}
+
+.animate-shimmer {
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.05), transparent);
+  background-size: 200% 100%;
+  animation: shimmer 1.5s infinite linear;
+}

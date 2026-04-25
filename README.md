@@ -4,6 +4,8 @@ TalentVector ATS is a high-density, AI-native recruiter workspace engineered for
 
 The system answers one core question on every screen: *"What should the recruiter do next?"*
 
+**🌐 Live Demo:** [https://talent-vector-xfn8-lw0b1b3gw-prathikkkshaas-projects.vercel.app/dashboard](https://talent-vector-xfn8-lw0b1b3gw-prathikkkshaas-projects.vercel.app/dashboard)
+
 ---
 
 ##  Key Features

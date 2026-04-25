@@ -2,7 +2,7 @@
 
 import * as React from "react";
 import { motion, AnimatePresence } from "framer-motion";
-import { X, Linkedin, FileText, Share2, Check, AlertCircle } from "lucide-react";
+import { X, Link, FileText, Share2, Check, AlertCircle } from "lucide-react";
 import { Candidate } from "@/types";
 import { Avatar } from "@/components/ui/Avatar";
 import { Badge } from "@/components/ui/Badge";
@@ -52,7 +52,7 @@ export function CandidateProfilePanel({ candidate, onClose }: CandidateProfilePa
           </div>
           <div className="flex items-center gap-1">
             <button className="p-2 hover:bg-surface-secondary rounded-full text-zinc-400 transition-colors">
-              <Linkedin size={18} />
+              <Link size={18} />
             </button>
             <button className="p-2 hover:bg-surface-secondary rounded-full text-zinc-400 transition-colors">
               <FileText size={18} />

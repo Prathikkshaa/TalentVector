@@ -40,7 +40,7 @@ export default function CandidatesPage() {
           
           <div className="flex items-center gap-2">
             <Chip variant="active">Stage: All</Chip>
-            <Chip>Match: >80%</Chip>
+            <Chip>Match: &gt;80%</Chip>
             <Chip>Engagement: Active</Chip>
             <Button variant="ghost" size="sm" className="h-8 text-[11px] gap-2">
               <Filter size={12} />

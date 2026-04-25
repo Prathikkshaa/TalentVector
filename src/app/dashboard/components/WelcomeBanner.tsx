@@ -28,7 +28,7 @@ export function WelcomeBanner({ recruiterName }: { recruiterName: string }) {
         </span>
       </div>
       <p className="font-sans text-sm text-zinc-500 italic mt-1">
-        "Take it slow. Progress compounds."
+        &quot;Take it slow. Progress compounds.&quot;
       </p>
     </div>
   );

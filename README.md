@@ -6,7 +6,7 @@ The system answers one core question on every screen: *"What should the recruite
 
 ---
 
-## 🚀 Key Features
+##  Key Features
 
 ### 1. Decision-First Dashboard
 - **Priority Signal Feed**: Instantly surface critical issues like expiring offers, stakeholder blocks, and hot candidates.
@@ -37,7 +37,7 @@ The system answers one core question on every screen: *"What should the recruite
 
 ---
 
-## 💻 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - Node.js (v18+)
@@ -66,7 +66,7 @@ The system answers one core question on every screen: *"What should the recruite
 
 ---
 
-## 🎨 Design Philosophy
+## Design Philosophy
 
 *"The system surfaces the signal. The recruiter makes the decision. The hire gets closed."*
 
@@ -81,5 +81,5 @@ The system answers one core question on every screen: *"What should the recruite
 
 ---
 
-## 📄 License
+##  License
 This project is proprietary and confidential. All rights reserved.

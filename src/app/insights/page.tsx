@@ -39,7 +39,7 @@ export default function InsightsPage() {
         <div className="flex justify-between items-center">
           <div className="flex items-center gap-3">
             <h2 className="font-sans text-2xl font-bold text-zinc-900 dark:text-zinc-100">Insights</h2>
-            <Badge variant="neutral">Last 30 Days</Badge>
+            <Badge variant="default">Last 30 Days</Badge>
           </div>
         </div>
 

@@ -28,7 +28,7 @@ export function CandidateCard({ candidate }: { candidate: Candidate }) {
         <div className="flex items-center gap-2">
           <span className="text-sm font-bold text-zinc-900 dark:text-zinc-100">{candidate.name}</span>
           <Badge variant={
-            candidate.currentStage === "applied" ? "neutral" : 
+            candidate.currentStage === "applied" ? "default" : 
             candidate.currentStage === "screened" ? "signal-blue" :
             candidate.currentStage === "interview" ? "signal-amber" : "signal-teal"
           } className="text-[9px] h-4 py-0 uppercase">

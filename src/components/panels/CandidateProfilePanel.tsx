@@ -123,7 +123,7 @@ export function CandidateProfilePanel({ candidate, onClose }: CandidateProfilePa
                   {candidate.parsedResume.skills.map((skill, i) => (
                     <Badge 
                       key={i} 
-                      variant={skill.matched ? "signal-teal" : "neutral"} 
+                      variant={skill.matched ? "signal-teal" : "default"} 
                       className="text-[10px] px-1.5"
                     >
                       {skill.name}

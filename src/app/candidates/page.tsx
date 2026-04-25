@@ -74,7 +74,7 @@ export default function CandidatesPage() {
                 {candidate.parsedResume.skills.slice(0, 4).map((skill, i) => (
                   <Badge 
                     key={i} 
-                    variant={skill.matched ? "signal-teal" : "neutral"} 
+                    variant={skill.matched ? "signal-teal" : "default"} 
                     className="text-[9px] px-1.5 py-0"
                   >
                     {skill.name}

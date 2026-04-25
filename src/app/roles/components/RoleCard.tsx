@@ -51,7 +51,7 @@ export function RoleCard({ role }: { role: Role }) {
           </div>
 
           <div className="flex items-center gap-2 mt-1">
-            <Badge variant={role.daysOpen > role.slaTarget ? "signal-red" : "neutral"} className="font-mono text-[11px]">
+            <Badge variant={role.daysOpen > role.slaTarget ? "signal-red" : "default"} className="font-mono text-[11px]">
               {role.daysOpen}d / {role.slaTarget}d target
             </Badge>
           </div>
@@ -98,7 +98,7 @@ export function RoleCard({ role }: { role: Role }) {
               </span>
             </div>
             <div className="flex flex-col items-end gap-1 mt-1">
-              <Badge variant={role.offerReadiness.score > 70 ? "signal-teal" : "neutral"} className="text-[9px] uppercase">
+              <Badge variant={role.offerReadiness.score > 70 ? "signal-teal" : "default"} className="text-[9px] uppercase">
                 {role.offerReadiness.score > 70 ? "Offer Ready" : "No Offer Stage"}
               </Badge>
               <Badge variant={role.healthScore > 50 ? "signal-green" : "signal-red"} className="text-[9px] uppercase">
